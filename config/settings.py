@@ -121,3 +121,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+# Django debug toolbar settings
+INTERNAL_IPS = '81.230.84.9'
+
