@@ -3,3 +3,4 @@
 set -eo pipefail
 
 python manage.py collectstatic --noinput
+
