@@ -38,7 +38,7 @@ def createsuperuser(username,password):
 def bootstrap(request):
     if get_remaining_migrations() != 0:
         migrate()
-    createsuperuser("admin","SommaR!2018")
+    createsuperuser("admin","GarBo66!")
     return HttpResponse("Done!")
 
 
