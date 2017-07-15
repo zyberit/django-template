@@ -4,8 +4,8 @@
 
 python manage.py migrate --noinput
 
-service cron start
+#service cron start
 
-sleep 30
+#sleep 30
 
-/root/.acme.sh/acme.sh --test --debug --issue --standalone -d hej.apps.violaberg.nu
+#/root/.acme.sh/acme.sh --test --debug --issue --standalone -d hej.apps.violaberg.nu

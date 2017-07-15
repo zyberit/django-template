@@ -1,0 +1,4 @@
+ --access-log
+ --log-to-terminal
+ --url-alias /static static
+ config/wsgi.py 
