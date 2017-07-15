@@ -6,4 +6,4 @@ python manage.py migrate --noinput
 
 service cron start
 
-acme.sh --debug --issue --tls -d hej.apps.violaberg.nu
+/root/.acme.sh/acme.sh --debug --issue --tls -d hej.apps.violaberg.nu
